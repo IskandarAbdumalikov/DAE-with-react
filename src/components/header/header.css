@@ -1,0 +1,51 @@
+.nav__logo {
+  color: red;
+  padding-right: 200px;
+}
+header {
+  background: #f6f4ec;
+}
+
+.header__nav {
+  padding: 20px 0px;
+}
+
+.header__top {
+  padding: 20px 0px;
+  background: #b36050;
+  text-align: center;
+}
+
+.header__top p {
+  color: white;
+  font-size: 18px;
+}
+
+.header__nav a {
+  color: #b4604d;
+  font-size: 18px;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 1030px) {
+  .nav__left__link {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    width: 20px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 550px){
+  .nav__right{
+    display: none;
+  }
+  .nav__logo{
+    padding-right: 0px;
+  }
+}
